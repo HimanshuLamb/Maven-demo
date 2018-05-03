@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="com.codebind.maven_demo.ChromeTest">
+        <methods>
+          <include name="tearDownSuite"/>
+          <include name="afterMainMethod"/>
+          <include name="setTest"/>
+          <include name="Close"/>
+          <include name="before"/>
+          <include name="testMethod" invocation-numbers="4 25"/>
+          <include name="URLlanch"/>
+        </methods>
+      </class> <!-- com.codebind.maven_demo.ChromeTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

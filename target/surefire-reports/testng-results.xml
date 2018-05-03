@@ -1,0 +1,2137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="31" passed="31">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="1213228" started-at="2018-05-03T15:54:04Z" finished-at="2018-05-03T16:14:17Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="1213228" started-at="2018-05-03T15:54:04Z" finished-at="2018-05-03T16:14:17Z">
+      <class name="com.codebind.maven_demo.ChromeTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="before" is-config="true" duration-ms="215" started-at="2018-05-03T15:54:04Z" finished-at="2018-05-03T15:54:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="URLlanch()[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="URLlanch" is-config="true" duration-ms="23509" started-at="2018-05-03T15:54:04Z" finished-at="2018-05-03T15:54:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- URLlanch -->
+        <test-method status="PASS" signature="setTest(java.lang.reflect.Method)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="setTest" is-config="true" duration-ms="9" started-at="2018-05-03T15:54:27Z" finished-at="2018-05-03T15:54:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTest -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="testMethod" duration-ms="38529" started-at="2018-05-03T15:54:27Z" data-provider="searchProvider" finished-at="2018-05-03T15:55:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[66]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1280x1024]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="afterMainMethod(org.testng.ITestResult)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="afterMainMethod" is-config="true" duration-ms="3" started-at="2018-05-03T15:55:06Z" finished-at="2018-05-03T15:55:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="setTest(java.lang.reflect.Method)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="setTest" is-config="true" duration-ms="0" started-at="2018-05-03T15:55:06Z" finished-at="2018-05-03T15:55:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTest -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="testMethod" duration-ms="38484" started-at="2018-05-03T15:55:06Z" data-provider="searchProvider" finished-at="2018-05-03T15:55:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[66]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Windows 8.1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1280x1024]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="afterMainMethod(org.testng.ITestResult)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="afterMainMethod" is-config="true" duration-ms="0" started-at="2018-05-03T15:55:45Z" finished-at="2018-05-03T15:55:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="setTest(java.lang.reflect.Method)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="setTest" is-config="true" duration-ms="0" started-at="2018-05-03T15:55:45Z" finished-at="2018-05-03T15:55:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTest -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="testMethod" duration-ms="38370" started-at="2018-05-03T15:55:45Z" data-provider="searchProvider" finished-at="2018-05-03T15:56:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[66]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Windows 8]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1280x1024]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="afterMainMethod(org.testng.ITestResult)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="afterMainMethod" is-config="true" duration-ms="0" started-at="2018-05-03T15:56:23Z" finished-at="2018-05-03T15:56:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="testMethod" duration-ms="38560" started-at="2018-05-03T15:56:23Z" data-provider="searchProvider" finished-at="2018-05-03T15:57:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[60]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1280x1024]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="setTest(java.lang.reflect.Method)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="setTest" is-config="true" duration-ms="0" started-at="2018-05-03T15:56:23Z" finished-at="2018-05-03T15:56:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTest -->
+        <test-method status="PASS" signature="setTest(java.lang.reflect.Method)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="setTest" is-config="true" duration-ms="1" started-at="2018-05-03T15:57:01Z" finished-at="2018-05-03T15:57:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTest -->
+        <test-method status="PASS" signature="afterMainMethod(org.testng.ITestResult)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="afterMainMethod" is-config="true" duration-ms="0" started-at="2018-05-03T15:57:01Z" finished-at="2018-05-03T15:57:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="testMethod" duration-ms="38412" started-at="2018-05-03T15:57:01Z" data-provider="searchProvider" finished-at="2018-05-03T15:57:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[60]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Windows 8.1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1280x1024]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="afterMainMethod(org.testng.ITestResult)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="afterMainMethod" is-config="true" duration-ms="0" started-at="2018-05-03T15:57:40Z" finished-at="2018-05-03T15:57:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="testMethod" duration-ms="38359" started-at="2018-05-03T15:57:40Z" data-provider="searchProvider" finished-at="2018-05-03T15:58:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[60]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Windows 8]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1280x1024]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="setTest(java.lang.reflect.Method)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="setTest" is-config="true" duration-ms="0" started-at="2018-05-03T15:57:40Z" finished-at="2018-05-03T15:57:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTest -->
+        <test-method status="PASS" signature="afterMainMethod(org.testng.ITestResult)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="afterMainMethod" is-config="true" duration-ms="1" started-at="2018-05-03T15:58:18Z" finished-at="2018-05-03T15:58:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="setTest(java.lang.reflect.Method)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="setTest" is-config="true" duration-ms="0" started-at="2018-05-03T15:58:18Z" finished-at="2018-05-03T15:58:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTest -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="testMethod" duration-ms="38305" started-at="2018-05-03T15:58:18Z" data-provider="searchProvider" finished-at="2018-05-03T15:58:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Internet Explorer]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1024x768]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="afterMainMethod(org.testng.ITestResult)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="afterMainMethod" is-config="true" duration-ms="1" started-at="2018-05-03T15:58:57Z" finished-at="2018-05-03T15:58:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="testMethod" duration-ms="38383" started-at="2018-05-03T15:58:57Z" data-provider="searchProvider" finished-at="2018-05-03T15:59:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Internet Explorer]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Windows 8.1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1280x800]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="setTest(java.lang.reflect.Method)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="setTest" is-config="true" duration-ms="0" started-at="2018-05-03T15:58:57Z" finished-at="2018-05-03T15:58:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTest -->
+        <test-method status="PASS" signature="afterMainMethod(org.testng.ITestResult)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="afterMainMethod" is-config="true" duration-ms="0" started-at="2018-05-03T15:59:35Z" finished-at="2018-05-03T15:59:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="setTest(java.lang.reflect.Method)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="setTest" is-config="true" duration-ms="1" started-at="2018-05-03T15:59:35Z" finished-at="2018-05-03T15:59:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTest -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="testMethod" duration-ms="38330" started-at="2018-05-03T15:59:35Z" data-provider="searchProvider" finished-at="2018-05-03T16:00:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Internet Explorer]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Windows 8]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1366x768]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="afterMainMethod(org.testng.ITestResult)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="afterMainMethod" is-config="true" duration-ms="1" started-at="2018-05-03T16:00:13Z" finished-at="2018-05-03T16:00:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="testMethod" duration-ms="38242" started-at="2018-05-03T16:00:13Z" data-provider="searchProvider" finished-at="2018-05-03T16:00:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Opera]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1280x1024]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="setTest(java.lang.reflect.Method)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="setTest" is-config="true" duration-ms="0" started-at="2018-05-03T16:00:13Z" finished-at="2018-05-03T16:00:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTest -->
+        <test-method status="PASS" signature="setTest(java.lang.reflect.Method)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="setTest" is-config="true" duration-ms="1" started-at="2018-05-03T16:00:51Z" finished-at="2018-05-03T16:00:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTest -->
+        <test-method status="PASS" signature="afterMainMethod(org.testng.ITestResult)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="afterMainMethod" is-config="true" duration-ms="0" started-at="2018-05-03T16:00:51Z" finished-at="2018-05-03T16:00:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="testMethod" duration-ms="38264" started-at="2018-05-03T16:00:51Z" data-provider="searchProvider" finished-at="2018-05-03T16:01:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Opera]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Windows 8.1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1280x1024]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="afterMainMethod(org.testng.ITestResult)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="afterMainMethod" is-config="true" duration-ms="1" started-at="2018-05-03T16:01:30Z" finished-at="2018-05-03T16:01:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="testMethod" duration-ms="38231" started-at="2018-05-03T16:01:30Z" data-provider="searchProvider" finished-at="2018-05-03T16:02:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Opera]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Windows 8]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1280x1024]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="setTest(java.lang.reflect.Method)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="setTest" is-config="true" duration-ms="0" started-at="2018-05-03T16:01:30Z" finished-at="2018-05-03T16:01:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTest -->
+        <test-method status="PASS" signature="setTest(java.lang.reflect.Method)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="setTest" is-config="true" duration-ms="1" started-at="2018-05-03T16:02:08Z" finished-at="2018-05-03T16:02:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTest -->
+        <test-method status="PASS" signature="afterMainMethod(org.testng.ITestResult)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="afterMainMethod" is-config="true" duration-ms="0" started-at="2018-05-03T16:02:08Z" finished-at="2018-05-03T16:02:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="testMethod" duration-ms="38475" started-at="2018-05-03T16:02:08Z" data-provider="searchProvider" finished-at="2018-05-03T16:02:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5.1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1280x1024]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="testMethod" duration-ms="38529" started-at="2018-05-03T16:02:46Z" data-provider="searchProvider" finished-at="2018-05-03T16:03:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5.1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Windows 8.1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1280x1024]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="setTest(java.lang.reflect.Method)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="setTest" is-config="true" duration-ms="0" started-at="2018-05-03T16:02:46Z" finished-at="2018-05-03T16:02:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTest -->
+        <test-method status="PASS" signature="afterMainMethod(org.testng.ITestResult)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="afterMainMethod" is-config="true" duration-ms="0" started-at="2018-05-03T16:02:46Z" finished-at="2018-05-03T16:02:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="afterMainMethod(org.testng.ITestResult)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="afterMainMethod" is-config="true" duration-ms="0" started-at="2018-05-03T16:03:25Z" finished-at="2018-05-03T16:03:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="testMethod" duration-ms="38351" started-at="2018-05-03T16:03:25Z" data-provider="searchProvider" finished-at="2018-05-03T16:04:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5.1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Windows 8]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1280x1024]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="setTest(java.lang.reflect.Method)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="setTest" is-config="true" duration-ms="0" started-at="2018-05-03T16:03:25Z" finished-at="2018-05-03T16:03:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTest -->
+        <test-method status="PASS" signature="setTest(java.lang.reflect.Method)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="setTest" is-config="true" duration-ms="1" started-at="2018-05-03T16:04:03Z" finished-at="2018-05-03T16:04:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTest -->
+        <test-method status="PASS" signature="afterMainMethod(org.testng.ITestResult)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="afterMainMethod" is-config="true" duration-ms="0" started-at="2018-05-03T16:04:03Z" finished-at="2018-05-03T16:04:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="testMethod" duration-ms="38679" started-at="2018-05-03T16:04:03Z" data-provider="searchProvider" finished-at="2018-05-03T16:04:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[66]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[macOS High Sierra]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1024x768]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="afterMainMethod(org.testng.ITestResult)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="afterMainMethod" is-config="true" duration-ms="1" started-at="2018-05-03T16:04:42Z" finished-at="2018-05-03T16:04:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="setTest(java.lang.reflect.Method)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="setTest" is-config="true" duration-ms="0" started-at="2018-05-03T16:04:42Z" finished-at="2018-05-03T16:04:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTest -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="testMethod" duration-ms="38301" started-at="2018-05-03T16:04:42Z" data-provider="searchProvider" finished-at="2018-05-03T16:05:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[66]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[macOS Sierra]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1280x1024]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="afterMainMethod(org.testng.ITestResult)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="afterMainMethod" is-config="true" duration-ms="0" started-at="2018-05-03T16:05:20Z" finished-at="2018-05-03T16:05:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="setTest(java.lang.reflect.Method)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="setTest" is-config="true" duration-ms="1" started-at="2018-05-03T16:05:20Z" finished-at="2018-05-03T16:05:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTest -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="testMethod" duration-ms="38447" started-at="2018-05-03T16:05:20Z" data-provider="searchProvider" finished-at="2018-05-03T16:05:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[66]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[OS X El Capitan]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1280x960]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="afterMainMethod(org.testng.ITestResult)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="afterMainMethod" is-config="true" duration-ms="0" started-at="2018-05-03T16:05:59Z" finished-at="2018-05-03T16:05:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="testMethod" duration-ms="38217" started-at="2018-05-03T16:05:59Z" data-provider="searchProvider" finished-at="2018-05-03T16:06:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[66]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[OS X Yosemite]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1600x1200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="setTest(java.lang.reflect.Method)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="setTest" is-config="true" duration-ms="0" started-at="2018-05-03T16:05:59Z" finished-at="2018-05-03T16:05:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTest -->
+        <test-method status="PASS" signature="afterMainMethod(org.testng.ITestResult)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="afterMainMethod" is-config="true" duration-ms="0" started-at="2018-05-03T16:06:37Z" finished-at="2018-05-03T16:06:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="setTest(java.lang.reflect.Method)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="setTest" is-config="true" duration-ms="0" started-at="2018-05-03T16:06:37Z" finished-at="2018-05-03T16:06:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTest -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="testMethod" duration-ms="38320" started-at="2018-05-03T16:06:37Z" data-provider="searchProvider" finished-at="2018-05-03T16:07:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[60]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[macOS High Sierra]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1024x768]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="afterMainMethod(org.testng.ITestResult)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="afterMainMethod" is-config="true" duration-ms="1" started-at="2018-05-03T16:07:15Z" finished-at="2018-05-03T16:07:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="setTest(java.lang.reflect.Method)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="setTest" is-config="true" duration-ms="0" started-at="2018-05-03T16:07:15Z" finished-at="2018-05-03T16:07:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTest -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="testMethod" duration-ms="38322" started-at="2018-05-03T16:07:15Z" data-provider="searchProvider" finished-at="2018-05-03T16:07:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[60]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[macOS Sierra]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1280x1024]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="setTest(java.lang.reflect.Method)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="setTest" is-config="true" duration-ms="0" started-at="2018-05-03T16:07:54Z" finished-at="2018-05-03T16:07:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTest -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="testMethod" duration-ms="38398" started-at="2018-05-03T16:07:54Z" data-provider="searchProvider" finished-at="2018-05-03T16:08:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[60]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[OS X El Capitan]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1280x960]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="afterMainMethod(org.testng.ITestResult)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="afterMainMethod" is-config="true" duration-ms="0" started-at="2018-05-03T16:07:54Z" finished-at="2018-05-03T16:07:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="setTest(java.lang.reflect.Method)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="setTest" is-config="true" duration-ms="1" started-at="2018-05-03T16:08:32Z" finished-at="2018-05-03T16:08:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTest -->
+        <test-method status="PASS" signature="afterMainMethod(org.testng.ITestResult)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="afterMainMethod" is-config="true" duration-ms="0" started-at="2018-05-03T16:08:32Z" finished-at="2018-05-03T16:08:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="testMethod" duration-ms="38326" started-at="2018-05-03T16:08:32Z" data-provider="searchProvider" finished-at="2018-05-03T16:09:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[60]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[OS X Yosemite]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1600x1200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="setTest(java.lang.reflect.Method)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="setTest" is-config="true" duration-ms="1" started-at="2018-05-03T16:09:10Z" finished-at="2018-05-03T16:09:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTest -->
+        <test-method status="PASS" signature="afterMainMethod(org.testng.ITestResult)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="afterMainMethod" is-config="true" duration-ms="0" started-at="2018-05-03T16:09:10Z" finished-at="2018-05-03T16:09:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="testMethod" duration-ms="38191" started-at="2018-05-03T16:09:10Z" data-provider="searchProvider" finished-at="2018-05-03T16:09:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Opera]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[macOS High Sierra]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1024x768]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="afterMainMethod(org.testng.ITestResult)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="afterMainMethod" is-config="true" duration-ms="0" started-at="2018-05-03T16:09:49Z" finished-at="2018-05-03T16:09:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="testMethod" duration-ms="38241" started-at="2018-05-03T16:09:49Z" data-provider="searchProvider" finished-at="2018-05-03T16:10:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Opera]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[macOS Sierra]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1280x1024]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="setTest(java.lang.reflect.Method)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="setTest" is-config="true" duration-ms="0" started-at="2018-05-03T16:09:49Z" finished-at="2018-05-03T16:09:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTest -->
+        <test-method status="PASS" signature="afterMainMethod(org.testng.ITestResult)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="afterMainMethod" is-config="true" duration-ms="0" started-at="2018-05-03T16:10:27Z" finished-at="2018-05-03T16:10:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="testMethod" duration-ms="38362" started-at="2018-05-03T16:10:27Z" data-provider="searchProvider" finished-at="2018-05-03T16:11:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Opera]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[OS X El Capitan]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1280x960]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="setTest(java.lang.reflect.Method)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="setTest" is-config="true" duration-ms="0" started-at="2018-05-03T16:10:27Z" finished-at="2018-05-03T16:10:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTest -->
+        <test-method status="PASS" signature="afterMainMethod(org.testng.ITestResult)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="afterMainMethod" is-config="true" duration-ms="1" started-at="2018-05-03T16:11:05Z" finished-at="2018-05-03T16:11:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="setTest(java.lang.reflect.Method)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="setTest" is-config="true" duration-ms="0" started-at="2018-05-03T16:11:05Z" finished-at="2018-05-03T16:11:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTest -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="testMethod" duration-ms="38238" started-at="2018-05-03T16:11:05Z" data-provider="searchProvider" finished-at="2018-05-03T16:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Opera]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[OS X Yosemite]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1600x1200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="setTest(java.lang.reflect.Method)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="setTest" is-config="true" duration-ms="0" started-at="2018-05-03T16:11:43Z" finished-at="2018-05-03T16:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTest -->
+        <test-method status="PASS" signature="afterMainMethod(org.testng.ITestResult)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="afterMainMethod" is-config="true" duration-ms="0" started-at="2018-05-03T16:11:43Z" finished-at="2018-05-03T16:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="testMethod" duration-ms="38435" started-at="2018-05-03T16:11:43Z" data-provider="searchProvider" finished-at="2018-05-03T16:12:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[macOS Sierra]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1024x768]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="afterMainMethod(org.testng.ITestResult)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="afterMainMethod" is-config="true" duration-ms="0" started-at="2018-05-03T16:12:22Z" finished-at="2018-05-03T16:12:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="setTest(java.lang.reflect.Method)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="setTest" is-config="true" duration-ms="1" started-at="2018-05-03T16:12:22Z" finished-at="2018-05-03T16:12:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTest -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="testMethod" duration-ms="38396" started-at="2018-05-03T16:12:22Z" data-provider="searchProvider" finished-at="2018-05-03T16:13:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[macOS Sierra]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1280x1024]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="afterMainMethod(org.testng.ITestResult)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="afterMainMethod" is-config="true" duration-ms="0" started-at="2018-05-03T16:13:00Z" finished-at="2018-05-03T16:13:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="setTest(java.lang.reflect.Method)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="setTest" is-config="true" duration-ms="1" started-at="2018-05-03T16:13:00Z" finished-at="2018-05-03T16:13:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTest -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="testMethod" duration-ms="38406" started-at="2018-05-03T16:13:00Z" data-provider="searchProvider" finished-at="2018-05-03T16:13:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[OS X El Capitan]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1280x1024]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="afterMainMethod(org.testng.ITestResult)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="afterMainMethod" is-config="true" duration-ms="1" started-at="2018-05-03T16:13:39Z" finished-at="2018-05-03T16:13:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="testMethod" duration-ms="38304" started-at="2018-05-03T16:13:39Z" data-provider="searchProvider" finished-at="2018-05-03T16:14:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[OS X Yosemite]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1600x1200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="setTest(java.lang.reflect.Method)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="setTest" is-config="true" duration-ms="0" started-at="2018-05-03T16:13:39Z" finished-at="2018-05-03T16:13:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTest -->
+        <test-method status="PASS" signature="afterMainMethod(org.testng.ITestResult)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="afterMainMethod" is-config="true" duration-ms="0" started-at="2018-05-03T16:14:17Z" finished-at="2018-05-03T16:14:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="Close" is-config="true" duration-ms="218" started-at="2018-05-03T16:14:17Z" finished-at="2018-05-03T16:14:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method status="PASS" signature="tearDownSuite()[pri:0, instance:com.codebind.maven_demo.ChromeTest@6d00a15d]" name="tearDownSuite" is-config="true" duration-ms="394" started-at="2018-05-03T16:14:17Z" finished-at="2018-05-03T16:14:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- com.codebind.maven_demo.ChromeTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

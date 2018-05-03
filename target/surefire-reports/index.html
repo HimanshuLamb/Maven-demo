@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Surefire_suite">
+              <span class="suite-name border-passed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Surefire_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Surefire_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Surefire_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Surefire_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Surefire_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Surefire_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Surefire_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">31 methods,   31 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.codebind.maven_demo.ChromeTest" hash-for-method="testMethod(1, Chrome, 1, 66, 8, OS X Yosemite, 4, 1600x1200)">testMethod(1, Chrome, 1, 66, 8, OS X Yosemite, 4, 1600x1200)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.codebind.maven_demo.ChromeTest" hash-for-method="testMethod(2, firefox, 1, 60, 8, OS X Yosemite, 4, 1600x1200)">testMethod(2, firefox, 1, 60, 8, OS X Yosemite, 4, 1600x1200)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.codebind.maven_demo.ChromeTest" hash-for-method="testMethod(2, firefox, 1, 60, 7, OS X El Capitan, 3, 1280x960)">testMethod(2, firefox, 1, 60, 7, OS X El Capitan, 3, 1280x960)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.codebind.maven_demo.ChromeTest" hash-for-method="testMethod(2, firefox, 1, 60, 1, Windows 10, 2, 1280x1024)">testMethod(2, firefox, 1, 60, 1, Windows 10, 2, 1280x1024)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.codebind.maven_demo.ChromeTest" hash-for-method="testMethod(3, Opera, 1, 50, 2, Windows 8.1, 2, 1280x1024)">testMethod(3, Opera, 1, 50, 2, Windows 8.1, 2, 1280x1024)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.codebind.maven_demo.ChromeTest" hash-for-method="testMethod(1, Chrome, 1, 66, 3, Windows 8, 2, 1280x1024)">testMethod(1, Chrome, 1, 66, 3, Windows 8, 2, 1280x1024)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.codebind.maven_demo.ChromeTest" hash-for-method="testMethod(3, Opera, 1, 50, 3, Windows 8, 2, 1280x1024)">testMethod(3, Opera, 1, 50, 3, Windows 8, 2, 1280x1024)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.codebind.maven_demo.ChromeTest" hash-for-method="testMethod(6, Safari, 2, 10.1, 1, macOS Sierra, 2, 1280x1024)">testMethod(6, Safari, 2, 10.1, 1, macOS Sierra, 2, 1280x1024)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.codebind.maven_demo.ChromeTest" hash-for-method="testMethod(6, Safari, 4, 8, 1, OS X Yosemite, 4, 1600x1200)">testMethod(6, Safari, 4, 8, 1, OS X Yosemite, 4, 1600x1200)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.codebind.maven_demo.ChromeTest" hash-for-method="testMethod(3, Opera, 1, 50, 6, macOS Sierra, 2, 1280x1024)">testMethod(3, Opera, 1, 50, 6, macOS Sierra, 2, 1280x1024)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.codebind.maven_demo.ChromeTest" hash-for-method="testMethod(1, Chrome, 1, 66, 5, macOS High Sierra, 1, 1024x768)">testMethod(1, Chrome, 1, 66, 5, macOS High Sierra, 1, 1024x768)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.codebind.maven_demo.ChromeTest" hash-for-method="testMethod(6, Safari, 7, 5.1, 1, Windows 10, 2, 1280x1024)">testMethod(6, Safari, 7, 5.1, 1, Windows 10, 2, 1280x1024)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.codebind.maven_demo.ChromeTest" hash-for-method="testMethod(6, Safari, 7, 5.1, 3, Windows 8, 2, 1280x1024)">testMethod(6, Safari, 7, 5.1, 3, Windows 8, 2, 1280x1024)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.codebind.maven_demo.ChromeTest" hash-for-method="testMethod(4, Internet Explorer, 2, 10, 1, Windows 8, 4, 1366x768)">testMethod(4, Internet Explorer, 2, 10, 1, Windows 8, 4, 1366x768)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.codebind.maven_demo.ChromeTest" hash-for-method="testMethod(1, Chrome, 1, 66, 7, OS X El Capitan, 3, 1280x960)">testMethod(1, Chrome, 1, 66, 7, OS X El Capitan, 3, 1280x960)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.codebind.maven_demo.ChromeTest" hash-for-method="testMethod(1, Chrome, 1, 66, 1, Windows 10, 2, 1280x1024)">testMethod(1, Chrome, 1, 66, 1, Windows 10, 2, 1280x1024)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.codebind.maven_demo.ChromeTest" hash-for-method="testMethod(3, Opera, 1, 50, 5, macOS High Sierra, 1, 1024x768)">testMethod(3, Opera, 1, 50, 5, macOS High Sierra, 1, 1024x768)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.codebind.maven_demo.ChromeTest" hash-for-method="testMethod(6, Safari, 7, 5.1, 2, Windows 8.1, 2, 1280x1024)">testMethod(6, Safari, 7, 5.1, 2, Windows 8.1, 2, 1280x1024)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.codebind.maven_demo.ChromeTest" hash-for-method="testMethod(2, firefox, 1, 60, 5, macOS High Sierra, 1, 1024x768)">testMethod(2, firefox, 1, 60, 5, macOS High Sierra, 1, 1024x768)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.codebind.maven_demo.ChromeTest" hash-for-method="testMethod(6, Safari, 3, 9, 1, OS X El Capitan, 3, 1280x1024)">testMethod(6, Safari, 3, 9, 1, OS X El Capitan, 3, 1280x1024)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.codebind.maven_demo.ChromeTest" hash-for-method="testMethod(2, firefox, 1, 60, 6, macOS Sierra, 2, 1280x1024)">testMethod(2, firefox, 1, 60, 6, macOS Sierra, 2, 1280x1024)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.codebind.maven_demo.ChromeTest" hash-for-method="testMethod(6, Safari, 1, 11, 1, macOS Sierra, 1, 1024x768)">testMethod(6, Safari, 1, 11, 1, macOS Sierra, 1, 1024x768)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.codebind.maven_demo.ChromeTest" hash-for-method="testMethod(1, Chrome, 1, 66, 2, Windows 8.1, 2, 1280x1024)">testMethod(1, Chrome, 1, 66, 2, Windows 8.1, 2, 1280x1024)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.codebind.maven_demo.ChromeTest" hash-for-method="testMethod(3, Opera, 1, 50, 7, OS X El Capitan, 3, 1280x960)">testMethod(3, Opera, 1, 50, 7, OS X El Capitan, 3, 1280x960)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.codebind.maven_demo.ChromeTest" hash-for-method="testMethod(2, firefox, 1, 60, 2, Windows 8.1, 2, 1280x1024)">testMethod(2, firefox, 1, 60, 2, Windows 8.1, 2, 1280x1024)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.codebind.maven_demo.ChromeTest" hash-for-method="testMethod(2, firefox, 1, 60, 3, Windows 8, 2, 1280x1024)">testMethod(2, firefox, 1, 60, 3, Windows 8, 2, 1280x1024)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.codebind.maven_demo.ChromeTest" hash-for-method="testMethod(3, Opera, 1, 50, 8, OS X Yosemite, 4, 1600x1200)">testMethod(3, Opera, 1, 50, 8, OS X Yosemite, 4, 1600x1200)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.codebind.maven_demo.ChromeTest" hash-for-method="testMethod(4, Internet Explorer, 1, 11, 1, Windows 10, 1, 1024x768)">testMethod(4, Internet Explorer, 1, 11, 1, Windows 10, 1, 1024x768)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.codebind.maven_demo.ChromeTest" hash-for-method="testMethod(4, Internet Explorer, 1, 11, 2, Windows 8.1, 2, 1280x800)">testMethod(4, Internet Explorer, 1, 11, 2, Windows 8.1, 2, 1280x800)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.codebind.maven_demo.ChromeTest" hash-for-method="testMethod(3, Opera, 1, 50, 1, Windows 10, 2, 1280x1024)">testMethod(3, Opera, 1, 50, 1, Windows 10, 2, 1280x1024)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.codebind.maven_demo.ChromeTest" hash-for-method="testMethod(1, Chrome, 1, 66, 6, macOS Sierra, 2, 1280x1024)">testMethod(1, Chrome, 1, 66, 6, macOS Sierra, 2, 1280x1024)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.codebind.maven_demo.ChromeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(1, Chrome, 1, 66, 8, OS X Yosemite, 4, 1600x1200)">
+                  </a> <!-- testMethod(1, Chrome, 1, 66, 8, OS X Yosemite, 4, 1600x1200) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(1, Chrome, 1, 66, 8, OS X Yosemite, 4, 1600x1200)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(2, firefox, 1, 60, 8, OS X Yosemite, 4, 1600x1200)">
+                  </a> <!-- testMethod(2, firefox, 1, 60, 8, OS X Yosemite, 4, 1600x1200) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(2, firefox, 1, 60, 8, OS X Yosemite, 4, 1600x1200)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(2, firefox, 1, 60, 7, OS X El Capitan, 3, 1280x960)">
+                  </a> <!-- testMethod(2, firefox, 1, 60, 7, OS X El Capitan, 3, 1280x960) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(2, firefox, 1, 60, 7, OS X El Capitan, 3, 1280x960)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(2, firefox, 1, 60, 1, Windows 10, 2, 1280x1024)">
+                  </a> <!-- testMethod(2, firefox, 1, 60, 1, Windows 10, 2, 1280x1024) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(2, firefox, 1, 60, 1, Windows 10, 2, 1280x1024)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(3, Opera, 1, 50, 2, Windows 8.1, 2, 1280x1024)">
+                  </a> <!-- testMethod(3, Opera, 1, 50, 2, Windows 8.1, 2, 1280x1024) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(3, Opera, 1, 50, 2, Windows 8.1, 2, 1280x1024)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(1, Chrome, 1, 66, 3, Windows 8, 2, 1280x1024)">
+                  </a> <!-- testMethod(1, Chrome, 1, 66, 3, Windows 8, 2, 1280x1024) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(1, Chrome, 1, 66, 3, Windows 8, 2, 1280x1024)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(3, Opera, 1, 50, 3, Windows 8, 2, 1280x1024)">
+                  </a> <!-- testMethod(3, Opera, 1, 50, 3, Windows 8, 2, 1280x1024) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(3, Opera, 1, 50, 3, Windows 8, 2, 1280x1024)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(6, Safari, 2, 10.1, 1, macOS Sierra, 2, 1280x1024)">
+                  </a> <!-- testMethod(6, Safari, 2, 10.1, 1, macOS Sierra, 2, 1280x1024) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(6, Safari, 2, 10.1, 1, macOS Sierra, 2, 1280x1024)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(6, Safari, 4, 8, 1, OS X Yosemite, 4, 1600x1200)">
+                  </a> <!-- testMethod(6, Safari, 4, 8, 1, OS X Yosemite, 4, 1600x1200) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(6, Safari, 4, 8, 1, OS X Yosemite, 4, 1600x1200)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(3, Opera, 1, 50, 6, macOS Sierra, 2, 1280x1024)">
+                  </a> <!-- testMethod(3, Opera, 1, 50, 6, macOS Sierra, 2, 1280x1024) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(3, Opera, 1, 50, 6, macOS Sierra, 2, 1280x1024)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(1, Chrome, 1, 66, 5, macOS High Sierra, 1, 1024x768)">
+                  </a> <!-- testMethod(1, Chrome, 1, 66, 5, macOS High Sierra, 1, 1024x768) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(1, Chrome, 1, 66, 5, macOS High Sierra, 1, 1024x768)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(6, Safari, 7, 5.1, 1, Windows 10, 2, 1280x1024)">
+                  </a> <!-- testMethod(6, Safari, 7, 5.1, 1, Windows 10, 2, 1280x1024) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(6, Safari, 7, 5.1, 1, Windows 10, 2, 1280x1024)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(6, Safari, 7, 5.1, 3, Windows 8, 2, 1280x1024)">
+                  </a> <!-- testMethod(6, Safari, 7, 5.1, 3, Windows 8, 2, 1280x1024) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(6, Safari, 7, 5.1, 3, Windows 8, 2, 1280x1024)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(4, Internet Explorer, 2, 10, 1, Windows 8, 4, 1366x768)">
+                  </a> <!-- testMethod(4, Internet Explorer, 2, 10, 1, Windows 8, 4, 1366x768) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(4, Internet Explorer, 2, 10, 1, Windows 8, 4, 1366x768)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(1, Chrome, 1, 66, 7, OS X El Capitan, 3, 1280x960)">
+                  </a> <!-- testMethod(1, Chrome, 1, 66, 7, OS X El Capitan, 3, 1280x960) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(1, Chrome, 1, 66, 7, OS X El Capitan, 3, 1280x960)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(1, Chrome, 1, 66, 1, Windows 10, 2, 1280x1024)">
+                  </a> <!-- testMethod(1, Chrome, 1, 66, 1, Windows 10, 2, 1280x1024) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(1, Chrome, 1, 66, 1, Windows 10, 2, 1280x1024)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(3, Opera, 1, 50, 5, macOS High Sierra, 1, 1024x768)">
+                  </a> <!-- testMethod(3, Opera, 1, 50, 5, macOS High Sierra, 1, 1024x768) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(3, Opera, 1, 50, 5, macOS High Sierra, 1, 1024x768)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(6, Safari, 7, 5.1, 2, Windows 8.1, 2, 1280x1024)">
+                  </a> <!-- testMethod(6, Safari, 7, 5.1, 2, Windows 8.1, 2, 1280x1024) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(6, Safari, 7, 5.1, 2, Windows 8.1, 2, 1280x1024)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(2, firefox, 1, 60, 5, macOS High Sierra, 1, 1024x768)">
+                  </a> <!-- testMethod(2, firefox, 1, 60, 5, macOS High Sierra, 1, 1024x768) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(2, firefox, 1, 60, 5, macOS High Sierra, 1, 1024x768)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(6, Safari, 3, 9, 1, OS X El Capitan, 3, 1280x1024)">
+                  </a> <!-- testMethod(6, Safari, 3, 9, 1, OS X El Capitan, 3, 1280x1024) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(6, Safari, 3, 9, 1, OS X El Capitan, 3, 1280x1024)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(2, firefox, 1, 60, 6, macOS Sierra, 2, 1280x1024)">
+                  </a> <!-- testMethod(2, firefox, 1, 60, 6, macOS Sierra, 2, 1280x1024) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(2, firefox, 1, 60, 6, macOS Sierra, 2, 1280x1024)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(6, Safari, 1, 11, 1, macOS Sierra, 1, 1024x768)">
+                  </a> <!-- testMethod(6, Safari, 1, 11, 1, macOS Sierra, 1, 1024x768) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(6, Safari, 1, 11, 1, macOS Sierra, 1, 1024x768)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(1, Chrome, 1, 66, 2, Windows 8.1, 2, 1280x1024)">
+                  </a> <!-- testMethod(1, Chrome, 1, 66, 2, Windows 8.1, 2, 1280x1024) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(1, Chrome, 1, 66, 2, Windows 8.1, 2, 1280x1024)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(3, Opera, 1, 50, 7, OS X El Capitan, 3, 1280x960)">
+                  </a> <!-- testMethod(3, Opera, 1, 50, 7, OS X El Capitan, 3, 1280x960) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(3, Opera, 1, 50, 7, OS X El Capitan, 3, 1280x960)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(2, firefox, 1, 60, 2, Windows 8.1, 2, 1280x1024)">
+                  </a> <!-- testMethod(2, firefox, 1, 60, 2, Windows 8.1, 2, 1280x1024) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(2, firefox, 1, 60, 2, Windows 8.1, 2, 1280x1024)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(2, firefox, 1, 60, 3, Windows 8, 2, 1280x1024)">
+                  </a> <!-- testMethod(2, firefox, 1, 60, 3, Windows 8, 2, 1280x1024) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(2, firefox, 1, 60, 3, Windows 8, 2, 1280x1024)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(3, Opera, 1, 50, 8, OS X Yosemite, 4, 1600x1200)">
+                  </a> <!-- testMethod(3, Opera, 1, 50, 8, OS X Yosemite, 4, 1600x1200) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(3, Opera, 1, 50, 8, OS X Yosemite, 4, 1600x1200)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(4, Internet Explorer, 1, 11, 1, Windows 10, 1, 1024x768)">
+                  </a> <!-- testMethod(4, Internet Explorer, 1, 11, 1, Windows 10, 1, 1024x768) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(4, Internet Explorer, 1, 11, 1, Windows 10, 1, 1024x768)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(4, Internet Explorer, 1, 11, 2, Windows 8.1, 2, 1280x800)">
+                  </a> <!-- testMethod(4, Internet Explorer, 1, 11, 2, Windows 8.1, 2, 1280x800) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(4, Internet Explorer, 1, 11, 2, Windows 8.1, 2, 1280x800)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(3, Opera, 1, 50, 1, Windows 10, 2, 1280x1024)">
+                  </a> <!-- testMethod(3, Opera, 1, 50, 1, Windows 10, 2, 1280x1024) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(3, Opera, 1, 50, 1, Windows 10, 2, 1280x1024)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(1, Chrome, 1, 66, 6, macOS Sierra, 2, 1280x1024)">
+                  </a> <!-- testMethod(1, Chrome, 1, 66, 6, macOS Sierra, 2, 1280x1024) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(1, Chrome, 1, 66, 6, macOS Sierra, 2, 1280x1024)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire suite&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.codebind.maven_demo.ChromeTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(31);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testMethod')
+data.setCell(0, 2, 'com.codebind.maven_demo.ChromeTest')
+data.setCell(0, 3, 38679);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testMethod')
+data.setCell(1, 2, 'com.codebind.maven_demo.ChromeTest')
+data.setCell(1, 3, 38560);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testMethod')
+data.setCell(2, 2, 'com.codebind.maven_demo.ChromeTest')
+data.setCell(2, 3, 38529);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testMethod')
+data.setCell(3, 2, 'com.codebind.maven_demo.ChromeTest')
+data.setCell(3, 3, 38529);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testMethod')
+data.setCell(4, 2, 'com.codebind.maven_demo.ChromeTest')
+data.setCell(4, 3, 38484);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testMethod')
+data.setCell(5, 2, 'com.codebind.maven_demo.ChromeTest')
+data.setCell(5, 3, 38475);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testMethod')
+data.setCell(6, 2, 'com.codebind.maven_demo.ChromeTest')
+data.setCell(6, 3, 38447);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testMethod')
+data.setCell(7, 2, 'com.codebind.maven_demo.ChromeTest')
+data.setCell(7, 3, 38435);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testMethod')
+data.setCell(8, 2, 'com.codebind.maven_demo.ChromeTest')
+data.setCell(8, 3, 38412);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testMethod')
+data.setCell(9, 2, 'com.codebind.maven_demo.ChromeTest')
+data.setCell(9, 3, 38406);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testMethod')
+data.setCell(10, 2, 'com.codebind.maven_demo.ChromeTest')
+data.setCell(10, 3, 38398);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testMethod')
+data.setCell(11, 2, 'com.codebind.maven_demo.ChromeTest')
+data.setCell(11, 3, 38396);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testMethod')
+data.setCell(12, 2, 'com.codebind.maven_demo.ChromeTest')
+data.setCell(12, 3, 38383);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testMethod')
+data.setCell(13, 2, 'com.codebind.maven_demo.ChromeTest')
+data.setCell(13, 3, 38370);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testMethod')
+data.setCell(14, 2, 'com.codebind.maven_demo.ChromeTest')
+data.setCell(14, 3, 38362);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testMethod')
+data.setCell(15, 2, 'com.codebind.maven_demo.ChromeTest')
+data.setCell(15, 3, 38359);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testMethod')
+data.setCell(16, 2, 'com.codebind.maven_demo.ChromeTest')
+data.setCell(16, 3, 38351);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testMethod')
+data.setCell(17, 2, 'com.codebind.maven_demo.ChromeTest')
+data.setCell(17, 3, 38330);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testMethod')
+data.setCell(18, 2, 'com.codebind.maven_demo.ChromeTest')
+data.setCell(18, 3, 38326);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testMethod')
+data.setCell(19, 2, 'com.codebind.maven_demo.ChromeTest')
+data.setCell(19, 3, 38322);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testMethod')
+data.setCell(20, 2, 'com.codebind.maven_demo.ChromeTest')
+data.setCell(20, 3, 38320);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testMethod')
+data.setCell(21, 2, 'com.codebind.maven_demo.ChromeTest')
+data.setCell(21, 3, 38305);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testMethod')
+data.setCell(22, 2, 'com.codebind.maven_demo.ChromeTest')
+data.setCell(22, 3, 38304);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testMethod')
+data.setCell(23, 2, 'com.codebind.maven_demo.ChromeTest')
+data.setCell(23, 3, 38301);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testMethod')
+data.setCell(24, 2, 'com.codebind.maven_demo.ChromeTest')
+data.setCell(24, 3, 38264);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testMethod')
+data.setCell(25, 2, 'com.codebind.maven_demo.ChromeTest')
+data.setCell(25, 3, 38242);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testMethod')
+data.setCell(26, 2, 'com.codebind.maven_demo.ChromeTest')
+data.setCell(26, 3, 38241);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testMethod')
+data.setCell(27, 2, 'com.codebind.maven_demo.ChromeTest')
+data.setCell(27, 3, 38238);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testMethod')
+data.setCell(28, 2, 'com.codebind.maven_demo.ChromeTest')
+data.setCell(28, 3, 38231);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testMethod')
+data.setCell(29, 2, 'com.codebind.maven_demo.ChromeTest')
+data.setCell(29, 3, 38217);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testMethod')
+data.setCell(30, 2, 'com.codebind.maven_demo.ChromeTest')
+data.setCell(30, 3, 38191);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 19 minutes</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.codebind.maven_demo.ChromeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">before</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">URLlanch</span>
+                <span class="method-start">215 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setTest(public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lan...)</span>
+                <span class="method-start">23759 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMethod(1, Chrome, 1, 66, 1, Windows 10, 2, 1280x1024)</span>
+                <span class="method-start">23769 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMainMethod([TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang....)</span>
+                <span class="method-start">62299 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setTest(public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lan...)</span>
+                <span class="method-start">62302 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMethod(1, Chrome, 1, 66, 2, Windows 8.1, 2, 1280x1024)</span>
+                <span class="method-start">62303 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMainMethod([TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang....)</span>
+                <span class="method-start">100787 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setTest(public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lan...)</span>
+                <span class="method-start">100788 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMethod(1, Chrome, 1, 66, 3, Windows 8, 2, 1280x1024)</span>
+                <span class="method-start">100788 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMainMethod([TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang....)</span>
+                <span class="method-start">139158 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setTest(public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lan...)</span>
+                <span class="method-start">139162 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMethod(2, firefox, 1, 60, 1, Windows 10, 2, 1280x1024)</span>
+                <span class="method-start">139162 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMainMethod([TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang....)</span>
+                <span class="method-start">177723 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setTest(public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lan...)</span>
+                <span class="method-start">177723 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMethod(2, firefox, 1, 60, 2, Windows 8.1, 2, 1280x1024)</span>
+                <span class="method-start">177724 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMainMethod([TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang....)</span>
+                <span class="method-start">216136 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setTest(public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lan...)</span>
+                <span class="method-start">216137 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMethod(2, firefox, 1, 60, 3, Windows 8, 2, 1280x1024)</span>
+                <span class="method-start">216137 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMainMethod([TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang....)</span>
+                <span class="method-start">254496 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setTest(public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lan...)</span>
+                <span class="method-start">254497 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMethod(4, Internet Explorer, 1, 11, 1, Windows 10, 1, 1024x768)</span>
+                <span class="method-start">254498 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMainMethod([TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang....)</span>
+                <span class="method-start">292803 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setTest(public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lan...)</span>
+                <span class="method-start">292804 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMethod(4, Internet Explorer, 1, 11, 2, Windows 8.1, 2, 1280x800)</span>
+                <span class="method-start">292804 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMainMethod([TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang....)</span>
+                <span class="method-start">331188 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setTest(public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lan...)</span>
+                <span class="method-start">331188 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMethod(4, Internet Explorer, 2, 10, 1, Windows 8, 4, 1366x768)</span>
+                <span class="method-start">331189 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMainMethod([TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang....)</span>
+                <span class="method-start">369519 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setTest(public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lan...)</span>
+                <span class="method-start">369520 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMethod(3, Opera, 1, 50, 1, Windows 10, 2, 1280x1024)</span>
+                <span class="method-start">369520 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMainMethod([TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang....)</span>
+                <span class="method-start">407763 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setTest(public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lan...)</span>
+                <span class="method-start">407763 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMethod(3, Opera, 1, 50, 2, Windows 8.1, 2, 1280x1024)</span>
+                <span class="method-start">407764 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMainMethod([TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang....)</span>
+                <span class="method-start">446028 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setTest(public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lan...)</span>
+                <span class="method-start">446029 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMethod(3, Opera, 1, 50, 3, Windows 8, 2, 1280x1024)</span>
+                <span class="method-start">446029 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMainMethod([TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang....)</span>
+                <span class="method-start">484261 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setTest(public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lan...)</span>
+                <span class="method-start">484261 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMethod(6, Safari, 7, 5.1, 1, Windows 10, 2, 1280x1024)</span>
+                <span class="method-start">484262 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMainMethod([TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang....)</span>
+                <span class="method-start">522738 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setTest(public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lan...)</span>
+                <span class="method-start">522738 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMethod(6, Safari, 7, 5.1, 2, Windows 8.1, 2, 1280x1024)</span>
+                <span class="method-start">522738 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMainMethod([TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang....)</span>
+                <span class="method-start">561267 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setTest(public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lan...)</span>
+                <span class="method-start">561268 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMethod(6, Safari, 7, 5.1, 3, Windows 8, 2, 1280x1024)</span>
+                <span class="method-start">561268 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMainMethod([TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang....)</span>
+                <span class="method-start">599620 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setTest(public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lan...)</span>
+                <span class="method-start">599620 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMethod(1, Chrome, 1, 66, 5, macOS High Sierra, 1, 1024x768)</span>
+                <span class="method-start">599621 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMainMethod([TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang....)</span>
+                <span class="method-start">638300 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setTest(public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lan...)</span>
+                <span class="method-start">638302 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMethod(1, Chrome, 1, 66, 6, macOS Sierra, 2, 1280x1024)</span>
+                <span class="method-start">638302 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMainMethod([TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang....)</span>
+                <span class="method-start">676603 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setTest(public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lan...)</span>
+                <span class="method-start">676603 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMethod(1, Chrome, 1, 66, 7, OS X El Capitan, 3, 1280x960)</span>
+                <span class="method-start">676604 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMainMethod([TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang....)</span>
+                <span class="method-start">715051 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setTest(public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lan...)</span>
+                <span class="method-start">715052 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMethod(1, Chrome, 1, 66, 8, OS X Yosemite, 4, 1600x1200)</span>
+                <span class="method-start">715052 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMainMethod([TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang....)</span>
+                <span class="method-start">753269 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setTest(public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lan...)</span>
+                <span class="method-start">753270 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMethod(2, firefox, 1, 60, 5, macOS High Sierra, 1, 1024x768)</span>
+                <span class="method-start">753270 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMainMethod([TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang....)</span>
+                <span class="method-start">791590 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setTest(public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lan...)</span>
+                <span class="method-start">791591 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMethod(2, firefox, 1, 60, 6, macOS Sierra, 2, 1280x1024)</span>
+                <span class="method-start">791591 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMainMethod([TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang....)</span>
+                <span class="method-start">829914 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setTest(public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lan...)</span>
+                <span class="method-start">829914 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMethod(2, firefox, 1, 60, 7, OS X El Capitan, 3, 1280x960)</span>
+                <span class="method-start">829914 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMainMethod([TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang....)</span>
+                <span class="method-start">868312 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setTest(public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lan...)</span>
+                <span class="method-start">868312 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMethod(2, firefox, 1, 60, 8, OS X Yosemite, 4, 1600x1200)</span>
+                <span class="method-start">868313 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMainMethod([TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang....)</span>
+                <span class="method-start">906640 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setTest(public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lan...)</span>
+                <span class="method-start">906640 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMethod(3, Opera, 1, 50, 5, macOS High Sierra, 1, 1024x768)</span>
+                <span class="method-start">906641 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMainMethod([TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang....)</span>
+                <span class="method-start">944832 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setTest(public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lan...)</span>
+                <span class="method-start">944833 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMethod(3, Opera, 1, 50, 6, macOS Sierra, 2, 1280x1024)</span>
+                <span class="method-start">944833 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMainMethod([TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang....)</span>
+                <span class="method-start">983074 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setTest(public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lan...)</span>
+                <span class="method-start">983075 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMethod(3, Opera, 1, 50, 7, OS X El Capitan, 3, 1280x960)</span>
+                <span class="method-start">983075 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMainMethod([TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang....)</span>
+                <span class="method-start">1021437 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setTest(public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lan...)</span>
+                <span class="method-start">1021438 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMethod(3, Opera, 1, 50, 8, OS X Yosemite, 4, 1600x1200)</span>
+                <span class="method-start">1021438 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMainMethod([TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang....)</span>
+                <span class="method-start">1059677 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setTest(public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lan...)</span>
+                <span class="method-start">1059677 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMethod(6, Safari, 1, 11, 1, macOS Sierra, 1, 1024x768)</span>
+                <span class="method-start">1059678 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMainMethod([TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang....)</span>
+                <span class="method-start">1098114 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setTest(public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lan...)</span>
+                <span class="method-start">1098114 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMethod(6, Safari, 2, 10.1, 1, macOS Sierra, 2, 1280x1024)</span>
+                <span class="method-start">1098115 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMainMethod([TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang....)</span>
+                <span class="method-start">1136511 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setTest(public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lan...)</span>
+                <span class="method-start">1136511 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMethod(6, Safari, 3, 9, 1, OS X El Capitan, 3, 1280x1024)</span>
+                <span class="method-start">1136512 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMainMethod([TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang....)</span>
+                <span class="method-start">1174918 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setTest(public void com.codebind.maven_demo.ChromeTest.testMethod(java.lang.String,java.lang.String,java.lan...)</span>
+                <span class="method-start">1174919 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMethod(6, Safari, 4, 8, 1, OS X Yosemite, 4, 1600x1200)</span>
+                <span class="method-start">1174919 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMainMethod([TestResult name=testMethod status=SUCCESS method=ChromeTest.testMethod(java.lang.String, java.lang....)</span>
+                <span class="method-start">1213223 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">Close</span>
+                <span class="method-start">1213225 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDownSuite</span>
+                <span class="method-start">1213475 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
